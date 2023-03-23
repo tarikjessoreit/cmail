@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+ *{
+  font-family: 'Roboto', sans-serif;
+  }
+
+  body{
+    background-color: #F6F8FC;
+  }
+
+  /* Header Section Started */
+  header {
+    background-color: #F6F8FC;
+    height: 45px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .srcbox{
+    flex: 19;
+    position: relative;
+  }
+
+  .logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    flex: 3;
+    cursor: pointer;
+  }
+
+  .srcbox input{
+    width: 600px;
+    height: 50px;
+    padding: 0px 50px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #DFF0FA;
+    outline: none;
+    border: none;
+    font-size: 17px;
+  }
+
+  .fa-magnifying-glass{
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .fa-magnifying-glass:hover{
+    background-color: #bebebe;
+  }
+
+  /* Header Section End */
+
+  /* Navbar Started */
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  nav ul li{
+    margin-right: 20px;
+  }
+
+  nav ul img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 4px solid rgb(146, 141, 141);
+  }
+
+  nav ul .fa-solid{
+    font-size: 22px;
+    color: #696969;
+    width: 30px;
+    height: 30px;
+  }
+
+  nav ul .fa-regular{
+    font-size: 22px;
+    color: #696969;
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Navbar End */
+
+  /* Aside bar Started */
+
+  aside ul{
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+  }
+
+  aside li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  aside li img{
+    width: 20px;
+  }
+  aside ul li a {
+    color: #333;
+    margin: 8px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  aside {
+    width: 200px;
+    background-color: #F6F8FC;
+    padding: 20px;
+  }
+
+  aside .btn{
+    position: relative;
+  }
+
+  aside .btn button{
+    padding: 20px;
+    padding-left: 70px;
+    border-radius: 10px;
+    background-color: #C2E7FF;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  aside .btn img{
+    width: 25px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+  }
+
+  /* Aside bar End */
+
+  main {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 100px);
+  }
+
+  section {
+    width: 83%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  section ol li{
+    padding: 10px;
+    border-top: 1px solid rgb(129, 129, 129);
+    border-bottom: 1px solid rgb(129, 129, 129);
+    box-shadow: 0px 4px 5px 1px #c0bfbf;
+  }
+
+  section ol li a{
+    text-decoration: none;
+  }
+
+
+
+
