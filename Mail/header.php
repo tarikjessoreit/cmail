@@ -1,4 +1,9 @@
 <?php require_once "../config.php";?>
+<?php 
+  if(!isset($_SESSION['logstatus']) || $_SESSION['logstatus']!=true){
+    header('location: ../');
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
